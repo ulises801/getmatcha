@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 70%;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  text-align: center;
+  margin: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #025157;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  font-size: medium ;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  background-size: 100% 2px;
+}
+
+.actions {
+  width: 15%;
+}
+
+.actions > a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #025157;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  font-size: medium ;
+}
+
+.actions > * {
+  padding: 10px;
+}
+
+.actions > a:hover,
+.actions > a:focus{
+    background-size: 100% 2px;
+}
+
+.actions > button:hover {
+  background-color:#67B54B;
+}
+
+#logo {
+  width: 15%;
+}
+
+button {
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #025157;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+section {
+    height: 100px;
+    width: 100%;
+    display: flex;
+  }
+
+  .home {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .mainHome > h1{
+      color:#025157 ;
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+
+  .mainHome > p{
+    color:#46484c;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.mainHome > button{
+    background-color: #67B54B; 
+}
+
+
+
+
